@@ -5,7 +5,7 @@
  ------------------------------------ 
  ====================================*/
 
- :root {
+ /*:root {
  	--base03:  #002b36;
     --base02:  #073642;
     --base01:  #586e75;
@@ -21,6 +21,25 @@
     --violet:  #6c71c4;
     --blue:    #268bd2;
     --cyan:    #2aa198;
+    --green:   #5f8700;
+}*/
+
+ :root {
+ 	--base03:  #1c1c1c;
+    --base02:  #262626;
+    --base01:  #585858;
+    --base00:  #657b83;
+    --base0:   #839496;
+    --base1:   #93a1a1;
+    --base2:   #eee8d5;
+    --base3:   #fdf6e3;
+    --yellow:  #b58900;
+    --orange:  #d75f00;
+    --red:     #dc322f;
+    --magenta: #d33682;
+    --violet:  #6c71c4;
+    --blue:    #268bd2;
+    --cyan:    #00afaf;
     --green:   #5f8700;
 }
 
@@ -39,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--orange);
+	color: var(--base1);
 	margin: 0;
 	font-weight: 600;
 	font-family: monaco, Consolas, "Lucida Console", monospace;
@@ -210,7 +229,7 @@ ol {
 /* Site Buttons */
 .site-btn {
 	display: inline-block;
-	text-transform: uppercase;
+	font-style: bold;
 	font-size: 12px;
 	min-width: 213px;
 	min-height: 20px;
@@ -219,7 +238,7 @@ ol {
 	position: relative;
 	background-color: var(--base03);
 	margin-right: 10px;
-	border: 2px solid var(--base0);
+	border: 2px solid var(--base02);
 	color: var(--yellow);
 	font-weight: 700;
 }
@@ -621,11 +640,13 @@ ol {
 }
 
 .resume-list h3 {
+	font-size: 42px;
+	margin-bottom: 10px;
 	color: var(--green);
 }
 
 .resume-list h4 {
-	font-size: 16px;
+	font-size: 22px;
 	margin-top: 10px;
 	margin-bottom: 45px;
 	margin-left: 20px;
@@ -745,15 +766,27 @@ ol {
 	width: 100%;
 }
 
+.contact-form h4{
+	display: inline-block;
+	margin-left: 50px;
+	font-size: 22px;
+	color: var(--orange);
+}
+
+.contact-form h3{
+	display: inline-block;
+	font-size: 22px;
+}
+
+.contact-form h2{
+	font-size: 32px;
+}
+
 .contact-form input {
 	background-color: transparent;
-	padding-left: 25px;
-	height: 60px;
-	width: 100%;
 	border: none;
-	border-bottom: 2px solid #cacaca;
-	margin-bottom: 30px;
-	font-size: 13px;
+	font-size: 22px;
+	color: var(--yellow);
 }
 
 .contact-form textarea {
@@ -761,14 +794,15 @@ ol {
 	height: 200px;
 	width: 100%;
 	border: none;
-	border-bottom: 2px solid #cacaca;
 	margin-bottom: 30px;
-	font-size: 13px;
+	font-size: 22px;
+	color: var(--yellow);
 	background-color: transparent;
 }
 
 .contact-form ::-webkit-input-placeholder {
 	font-style: italic;
+	color: var(--yellow);
 }
 
 .contact-form :-ms-input-placeholder {

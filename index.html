@@ -48,7 +48,12 @@
 					</div>
 				</div>
 				<div class="col-md-8 text-md-right header-buttons">
-					<a href="#" class="site-btn">Download CV</a>
+					<a href="#" class="site-btn">
+						<em>
+							<span class="arg">self</span>.<!--
+							--><span class="declare">download</span>(cv)
+						</em>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -386,20 +391,52 @@
 						<h2>Contact Me.py</h2>
 					</div>
 					<form class="contact-form">
+						<h2>
+							<em>
+								msg 
+								<span class="eq">=</span> 
+								<span class="declare">Message</span><!--
+								-->(
+							</em>
+						<h2>
+
 						<div class="row">
-							<div class="col-md-6">
-								<input type="text" placeholder="Name">
-							</div>
-							<div class="col-md-6">
-								<input type="text" placeholder="E-mail">
-							</div>
-							<div class="col-md-12">
-								<input type="text" placeholder="Subject">
-								<textarea placeholder="Message"></textarea>
+							<div class="col">
+								<h4>name<span class='eq'>=</span></h4><!--
+								--><input type="text" placeholder="'Name',">
 							</div>
 						</div>
+
+						<div class="row">
+							<div class="col">
+								<h4>email<span class='eq'>=</span></h4><!--
+								--><input type="text" placeholder="'email',">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col">
+								<h4>subject<span class='eq'>=</span></h4><!--
+								--><input type="text" placeholder="'subject',">
+							</div>
+						</div>
+						<h2><em>)</em></h2>
+						<br>
+						<div class="row">
+							<div class="col">
+								<h3><em>msg.subject</em> <span class='eq'>=</span> <em>(</em></h3>
+								<textarea placeholder="'message',"></textarea>
+							</div>
+						</div>
+						<h3><em>)</em></h3>
+
 						<div class="text-md-right">
-							<button class="site-btn">Send message</button>
+							<button class="site-btn">
+								<em>
+									msg.<!--
+								--><span class="declare">send</span>()
+								</em>
+							</button>
 						</div>
 					</form>
 				</div>
