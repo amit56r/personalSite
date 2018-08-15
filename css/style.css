@@ -1551,8 +1551,20 @@ ol {
 	.resume-list h2 {
 		font-size: 50px;
 	}
+
+	.resume-list h3 {
+		font-size: 25px;
+	}
+	.resume-list h4 {
+		font-size: 15px;
+	}
+
+	.resume-list p {
+		font-size: 15px;
+	}
+
 	.portfolio-item {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.home-three-style .main-left-area,
 	.home-three-style .header-section,
