@@ -1566,6 +1566,26 @@ ol {
 	.portfolio-item {
 		margin-bottom: 20px;
 	}
+
+	.contact-form h2{
+		font-size: 15px;
+	}
+
+	.contact-form h3{
+		font-size: 15px;
+	}
+
+	.contact-form h4{
+		font-size: 15px;
+	}
+
+	.contact-form input{
+		font-size: 15px;
+	}
+
+	.contact-form textarea{
+		font-size: 15px;
+	}
 	.home-three-style .main-left-area,
 	.home-three-style .header-section,
 	.home-three-style .main-right-area,
