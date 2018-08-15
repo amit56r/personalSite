@@ -138,3 +138,25 @@ if($().circleProgress){
 
 })(jQuery);
 
+
+
+new TypeIt('#hero-type', {
+  speed: 75,
+  deleteSpeed: 50,
+  startDelay: 900
+})
+	.type("I am a ")
+	.pause(500)
+	.type('Softwaer')
+	.pause(500)
+	.delete(2)
+	.pause(500)
+	.type('re')
+	.pause(500)
+	.type(' Engineer!')
+
+new TypeIt('#resume-desc', {
+  speed: 50,
+  startDelay: 900,
+  autoStart: false,
+});

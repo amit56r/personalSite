@@ -36,7 +36,7 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.6/dist/typeit.min.js"></script>
 
 </head>
 <body>
@@ -58,7 +58,7 @@
 					</div>
 				</div>
 				<div class="col-md-8 text-md-right header-buttons">
-					<a href="#" class="site-btn">
+					<a href="resume.pdf" class="site-btn" download>
 						<em>
 							<span class="arg">self</span>.<!--
 							--><span class="declare">download</span>(cv)
@@ -81,7 +81,7 @@
 								<h3>def</h3>
 								<h2>Amit Roy</h2>
 								<h4><em>(</em>life<em>):</em></h4>
-								<p>I am a computer whisperer.</p>
+								<p id="hero-type"></p>
 							</div>
 
 							<div class="hero-info">
@@ -147,8 +147,7 @@
 								--></span><!--
 								-->):</em>
 							</h4>
-							<p>tes test fsld jfhskldjf hsdjkfh sdhf ksjdhf ksdjhf ksjdf hsdjk hfkjsd hfjksd hjkfhsdjk fhsjkd hfskhkfhk
-							 sfhdsjklfhsdjkl hfsdjkl hds hfsd f</p>
+							<p id="resume-desc">Currently leading the billing engineering team.</p>
 						</li>
 						<li>
 							<h3><span class="declare">class</span> Of Utah<em>(</em>University<em>):</em></h3>
@@ -165,7 +164,7 @@
 								--></span><!--
 								-->):</em>
 							</h4>
-							<p>ksjdhf ksdjhf</p>
+							<p id="resume-desc">Research Assistant in Compiler Technology to Optimize Performance group (CTOP), advised by Prof. Mary Hall</p>
 						</li>
 						<li>
 							<h3><span class="declare">class</span> Argonne National<em>(</em>Laboratory<em>):</em></h3>
@@ -182,7 +181,7 @@
 								--></span><!--
 								-->):</em>
 							</h4>
-							<p>ksjdhf ksdjhf</p>
+							<p id="resume-desc">Developed an approach on exploiting performance portability in search algorithms for Autotuning</p>
 						</li>
 					</ul>
 				</div>
@@ -215,7 +214,7 @@
 								--></span><!--
 								-->):</em>
 							</h4>
-							<p>ksjdhf ksdjhf</p>
+							<p></p>
 						</li>
 						<li>
 							<h3><span class="declare">class</span> Bachelors of Art<em>(</em>Degree<em>):</em></h3>
@@ -232,7 +231,7 @@
 								--></span><!--
 								-->):</em>
 							</h4>
-							<p>ksjdhf ksdjhf</p>
+							<p></p>
 						</li>
 					</ul>
 				</div>
@@ -437,6 +436,7 @@
 								<h3><em>msg.subject</em> <span class='eq'>=</span> <em>(</em></h3>
 								<textarea placeholder="'message',"></textarea>
 								<input type="text" name="_gotcha" style="display:none" />
+								<input type="hidden" name="_next" value="https://amit.roy.life" />
 							</div>
 						</div>
 						<h3><em>)</em></h3>
