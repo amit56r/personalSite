@@ -1,0 +1,67 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Personal site with my cv in react",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server --mode development --open",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit56r/personalSite.git"
+  },
+  "keywords": [
+    "reactjs",
+    "personal",
+    "cv",
+    "profile",
+    "hobby",
+    "webpack"
+  ],
+  "author": "Amit Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit56r/personalSite/issues"
+  },
+  "homepage": "https://github.com/amit56r/personalSite#readme",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "bootstrap": "^3.4.1",
+    "materialize-css": "^1.0.0",
+    "font-awesome": "^4.7.0",
+    "animate": "*",
+    "magnific-popup": "*",
+    "swiper": "*",
+    "jquery": "*",
+    "popper": "*",
+    "react-materialize": "*",
+    "react-transition-group": "^1.0",
+    "animate.css": "^3.6.0",
+    "scrollreveal": "^4.0.5",
+    "classnames": "^2.2.6",
+    "react-bootstrap": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-loader": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "husky": "^2.1.0",
+    "node-sass": "*",
+    "prettier": "1.17.0",
+    "pretty-quick": "^1.10.0",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
+
+}
