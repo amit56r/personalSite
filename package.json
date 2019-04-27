@@ -62,6 +62,10 @@
     "webpack": "*",
     "webpack-cli": "*",
     "webpack-dev-server": "*"
+  },
+  "husky": { 
+    "hooks": { 
+      "pre-commit": "pretty-quick --staged" 
+    } 
   }
-
 }
